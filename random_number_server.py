@@ -17,9 +17,9 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         print(f"Connected by {addr}")
         while True:
             data = conn.recv(1024)
-            rand_number = str((random.randint(1,100000)))
+            rand_number = str((random.randint(1,10000)))
             if not data:
                 break
             # Encodes to utf-8 and sends to the client
-            conn.sendall(rand_number.encode('utf-8'))
+            conn.sendall(rand_number.encode())
 

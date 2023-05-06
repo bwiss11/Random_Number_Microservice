@@ -11,6 +11,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.connect((HOST, PORT))
     s.sendall(b"Example request")
     data = s.recv(1024)
-    num = data.decode('utf-8')
+    num = data.decode()
 
 print(f"Received {num}")
