@@ -28,3 +28,9 @@ The server will then send the random number back to the client. It's important t
 
 The **num** variable now holds the randomly-generated number as a string and the user is free to use the number however they like from there.
 
+## UML Sequence Diagram
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/79183545/236627960-0fcacf39-e701-4b25-b534-17043e0467b7.png">
+
+
+
+
