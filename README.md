@@ -24,7 +24,7 @@ The data sent does not need to be exactly of the example above, i.e. the request
 After the client submits a request to the server, the server will receive the request and generate a random number within the range (1, 10000). 
 The server will then send the random number back to the client. It's important to note that the data is encoded in utf-8 before being sent back to the client. This means the client-side must decode the utf-8 (using the .decode() method) before the number will be usable. See the below picture for an example of how to decode the received data.
 
-![image](https://user-images.githubusercontent.com/79183545/236531626-de1e130e-a8ea-4304-b85e-1d65e87eb30d.png)
+![image](https://user-images.githubusercontent.com/79183545/236627654-0c6b2026-27ac-4ba7-9ed7-e094f93db7c9.png)
 
 The **num** variable now holds the randomly-generated number as a string and the user is free to use the number however they like from there.
 
